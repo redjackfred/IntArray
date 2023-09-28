@@ -78,16 +78,9 @@ public class IntArray {
     public static void main(String[] args) {
         IntArray arr = new IntArray();
 
-        arr.add(0);
-        arr.add(1);
-        arr.add(2);
-        arr.add(3);
-        arr.add(4);
-        arr.add(5);
-        arr.add(6);
-        arr.add(7);
-        arr.add(8);
-        arr.add(9);
+        for (int i = 0; i < 10; i++) {
+            arr.add(i);
+        }
         System.out.println("After adding 0 to 9 :" + arr);
 
         arr.add(15, 15);
